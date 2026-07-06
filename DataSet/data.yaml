@@ -1,0 +1,14 @@
+path: C:/Users/MC/Downloads/Helmet Detection/Helmet_Detection_DataSet
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['with helmet', 'without helmet']
+
+roboflow:
+  workspace: onlytusik
+  project: helmet-detection-fk6is
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/onlytusik/helmet-detection-fk6is/dataset/1
